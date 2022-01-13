@@ -1,0 +1,262 @@
+/* Normal desktop :1200px. */
+@media only screen and (max-width: 1600px) {
+	.shape-3 {
+		left: 5%;
+	}
+	.shape-4 {
+		right: 40%;
+	}
+
+}
+
+
+/* Tablet or MD desktop :992px. */
+@media only screen and (max-width: 1199px) {
+	.main-menu ul li {
+		margin: 0 10px;
+	}
+	.shape-2 {
+		right: 0;
+	}
+	.btn-3 {
+		margin-left: 6px;
+	}
+	.features-area {
+		margin-bottom: 0;
+	}
+	.video-area {
+		margin-bottom: 50px;
+	}
+	.video-content {
+		top: 120px;
+		left: 360px;
+	}
+	.available-btn a {
+		margin-left: 0;
+	}
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media only screen and (max-width: 991px) {
+	.section-header h3 {
+		font-size: 35px;
+		line-height: 16px;
+	}
+	.slider-height {
+		min-height: 950px;
+		background-position: left;
+	} 
+	.slider-content {
+		margin-top: 200px;
+	}
+	.slider-content h2 {
+		font-size: 40px;
+		line-height: 55px;
+	}
+	.section-header p {
+		font-size: 18px;
+		padding: 0px 120px;
+		line-height: 25px;
+	}
+	.single-features {
+		padding: 25px 0;
+	}
+	.single-features:hover {
+		padding: 25px 0;
+	}
+	.features-content h4 {
+		font-size: 20px;
+		line-height: 25px;
+		margin: 20px 0;
+	}
+	.features-content p {
+		line-height: 25px;
+		padding: 0px 25px;
+	}
+	.video-content {
+		left: 265px;
+	}
+	.video-content h4 {
+		font-size: 35px;
+		font-weight: 700;
+		line-height: 0;
+	}
+	.video-content i {
+		width: 100px;
+		height: 100px;
+		cursor: pointer;
+		line-height: 100px;
+		font-size: 30px;
+	}
+	.overview-content h4 {
+		font-size: 24px;
+	}
+	.price-box .price-header h2 {
+		font-size: 40px;
+		line-height: 35px;
+	}
+	.price-item-list ul li {
+		margin-bottom: 14px;
+	}
+	.price-btn {
+		padding: 15px;
+		margin-left: -25px;
+	}
+	.testimonial-item p {
+		font-size: 19px;
+		line-height: 1.60;
+	}
+	.brand-heading h3 {
+		font-size: 28px;
+	}
+	.latest-blog-content {
+		padding: 0 10px;
+	}
+	.inner-blog {
+		padding: 20px 24px;
+	}
+	.subscribe-area {
+		padding-bottom: 60px;
+	}
+	.subscribe-form input {
+		height: 60px;
+		padding: 0 20px;
+	}
+	.subscribe-form button {
+		padding: 20px 25px;
+	}
+	.main-nav {
+		display: none;
+	}
+	.header-btn {
+		display: none;
+	}
+	.mobile-menu .menu {
+		display: block;
+	}
+
+}
+
+ 
+/* small mobile :320px. */
+@media only screen and (max-width: 767px) {
+	.mean-container .mean-bar {
+		margin-top: -45px;
+	}
+	.slider-height {
+		min-height: 850px;
+	}
+	.slider-content {
+		margin-top: 150px;
+	}
+	.btn.btn-2 {
+		padding: 20px 45px;
+	}
+	.btn-3 {
+		padding: 17px 38px;
+	}
+	.counter-content {
+		margin-bottom: 45px;
+	}
+	.features-area {
+		margin-top: 45px;
+	}
+	.section-header h3 {
+		font-size: 30px;
+		line-height: 10px;
+	}
+	.section-header p {
+		font-size: 16px;
+	}
+	.video-content {
+		top: 80px;
+		left: 200px;
+	}
+	.video-content h4 {
+		font-size: 25px;
+	}
+	.video-content i {
+		width: 70px;
+		height: 70px;
+		cursor: pointer;
+		line-height: 70px;
+		font-size: 25px;
+	}
+	.overview-content {
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.overview-content p {
+		line-height: 25px;
+		font-size: 17px;
+	}
+	.price-box {
+		padding: 40px 50px;
+		border: 1px solid #f1f1f1;
+		border-radius: 20px;
+		background: #fff;
+		margin-bottom: 30px;
+	}
+	.faq-area {
+		margin-top: -200px;
+		padding-top: 0;
+	}
+	.faq-area .section-header {
+		margin-top: 370px;
+		margin-bottom: 85px;
+	}
+	.latest-blog {
+		text-align: center;
+	}
+	.latest-blog-content {
+		padding: 85px;
+		margin-top: -175px;
+	}
+	.inner-blog {
+		padding: 20px 40px;
+	}
+	.subscribe-area {
+		padding-top: 0;
+	}
+	.subscribe-space {
+		padding: 20px 75px;
+	}
+	.subscribe-title h3 {
+		font-size: 25px;
+		text-align: center;
+	}
+	.subscribe-form form {
+		padding-left: 50px;
+		margin-top: 10px;
+	}
+	.subscribe-form input {
+		height: 45px;
+		margin-left: -25px;
+	}
+	.subscribe-form button {
+		top: 0px;
+		right: 25px;
+		padding: 16px 15px;
+	}
+	.available-btn {
+		text-align: center;
+	}
+	.available-btn a {
+		padding: 5px 20px;
+	}
+	.available-btn img {
+		margin-top: 10px;
+	}
+	.btn-download-text {
+		top: 0px;
+	}
+}
+ 
+/* Large Mobile :520px. */
+@media only screen and (max-width: 575px) {
+	.slider-content {
+		text-align: center;
+	}
+}
